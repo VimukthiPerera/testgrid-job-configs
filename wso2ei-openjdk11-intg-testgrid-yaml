@@ -9,11 +9,11 @@ infrastructureConfig:
   parameters:
     - JDK: OPEN_JDK11
   includes:
-    - CentOS-7.5
+    - Ubuntu-18.04
     - MySQL-5.7
   provisioners:
     - name: prod-wso2ei-intg-deployment
-      remoteRepository: "https://github.com/wso2/testgrid"
+      remoteRepository: "https://github.com/VimukthiPerera/testgrid"
       description: Provision Infra for running intg tests
       scripts:
         - name: 'prod-wso2ei-intg-deployment'
