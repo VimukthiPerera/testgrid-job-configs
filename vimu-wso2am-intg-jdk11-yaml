@@ -7,7 +7,7 @@ infrastructureConfig:
   infrastructureProvider: AWS
   containerOrchestrationEngine: None
   includes:
-    - OPEN_JDK8
+    - ORACLE_JDK8
     - CentOS-7.5
     - MySQL-5.7
   provisioners:
