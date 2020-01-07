@@ -7,7 +7,7 @@ infrastructureConfig:
   infrastructureProvider: AWS
   containerOrchestrationEngine: None
   parameters:
-    - JDK : ORACLE_JDK8
+    - JDK : ADOPT_OPEN_JDK8
   includes:
     - ADOPT_OPEN_JDK8
     - CentOS-7.5
