@@ -7,7 +7,7 @@ infrastructureConfig:
   infrastructureProvider: AWS
   containerOrchestrationEngine: None
   includes:
-    - CorrettoJDK-8
+    - CorrettoJDK-11
     - CentOS-7.5
     - MySQL-5.7
   provisioners:
