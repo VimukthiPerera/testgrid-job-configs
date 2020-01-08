@@ -7,8 +7,8 @@ infrastructureConfig:
   infrastructureProvider: AWS
   containerOrchestrationEngine: None
   includes:
-    - CORRETTO_JDK11
-    - CentOS-7.5
+    - OracleJDK-8
+    - Ubuntu-18.04
     - MySQL-5.7
   provisioners:
     - name: dev-wso2am-intg-deployment
