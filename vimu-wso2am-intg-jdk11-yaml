@@ -8,7 +8,7 @@ infrastructureConfig:
   containerOrchestrationEngine: None
   includes:
     - OracleJDK-8
-    - Ubuntu-18.04
+    - Windows-2016
     - MySQL-5.7
   provisioners:
     - name: dev-wso2am-intg-deployment
