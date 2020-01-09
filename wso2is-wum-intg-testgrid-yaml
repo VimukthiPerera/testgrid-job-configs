@@ -6,11 +6,9 @@ infrastructureConfig:
   iacProvider: CLOUDFORMATION
   infrastructureProvider: AWS
   containerOrchestrationEngine: None
-  parameters:
-    - JDK : ORACLE_JDK8
   includes:
     - ADOPT_OPEN_JDK8
-    - CentOS-7.5
+    - Ubuntu-18.04
     - MySQL-5.7
   provisioners:
     - name: dev-wso2is-intg-deployment
