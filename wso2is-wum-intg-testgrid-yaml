@@ -7,8 +7,8 @@ infrastructureConfig:
   infrastructureProvider: AWS
   containerOrchestrationEngine: None
   includes:
-    - ADOPT_OPEN_JDK11
-    - CentOS-7.5
+    - ADOPT_OPEN_JDK8
+    - Windows-2016
     - MySQL-5.7
   provisioners:
     - name: dev-wso2is-intg-deployment
