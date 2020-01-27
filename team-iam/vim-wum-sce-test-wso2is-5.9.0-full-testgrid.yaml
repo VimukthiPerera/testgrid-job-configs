@@ -8,7 +8,7 @@ infrastructureConfig:
   containerOrchestrationEngine: None
   includes:
     - CentOS-7.5
-    - MySQL-5.7 
+    - Oracle-SE2-12.1 
     - ADOPT_OPEN_JDK11
   provisioners:
     - name: two-node-deployment
