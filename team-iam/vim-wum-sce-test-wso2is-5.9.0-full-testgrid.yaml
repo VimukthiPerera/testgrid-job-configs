@@ -12,7 +12,7 @@ infrastructureConfig:
     - ADOPT_OPEN_JDK11
   provisioners:
     - name: two-node-deployment
-      remoteRepository: "git@github.com:VImukthiPerera/aws-is-1.git"
+      remoteRepository: "git@github.com:VimukthiPerera/aws-is-1.git"
       remoteBranch: "5.9.0"
       description: Provision Infra for running scenario tests
       scripts:
@@ -27,6 +27,7 @@ infrastructureConfig:
             CertificateName: "wso2cert_us_east_2"
             DBUsername: "wso2carbon"
             InternalPrepareForTest: "True"
+            region: "us-west-2"
 scenarioConfigs:
   - testType: TESTNG
     remoteRepository: "git@github.com:wso2-support/product-is.git"
