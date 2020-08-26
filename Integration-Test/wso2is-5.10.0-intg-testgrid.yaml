@@ -13,7 +13,7 @@ infrastructureConfig:
     - Oracle-SE1-11.2
   provisioners:
     - name: prod-wso2is-intg-deployment
-      remoteRepository: "https://github.com/wso2/testgrid"
+      remoteRepository: "https://github.com/NishikaDeSilva/testgrid"
       remoteBranch: master
       description: Provision Infra for running intg tests
       scripts:
